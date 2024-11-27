@@ -1,0 +1,21 @@
+.ratings-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.stars-image-styling{
+    margin-right: 10px;
+    width: 140px;
+    height: 30px;
+}
+.stars-text{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 450;
+    color: #475569;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.extra-rating-styling{
+    color:rgb(58, 187, 237);
+}

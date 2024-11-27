@@ -1,0 +1,36 @@
+.cart-item-total-bill-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+.cart-item-total-amount{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 550;
+    color: #616e7c;
+}
+.cart-item-total-num{
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: bold;
+    color: #171f46;
+}
+.cart-item-total-number-products{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 450;
+    color: #616e7c;
+    margin-top: -12px;
+    margin-bottom: 5px;
+}
+.cart-item-order-button{
+    height: 30px;
+    width: 200px;
+    border-width: 0px;
+    background-color:  #0b69ff;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 450;
+}

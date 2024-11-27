@@ -1,0 +1,29 @@
+.cart-heading{
+    font-family: "Roboto";
+    font-size:40px;
+    font-weight: 450;
+    color:#78abee;
+    text-align: center;
+    margin-top: 20px;
+}
+.bg-container-cart{
+    min-height: 100vh;
+    padding: 40px 70px 40px 70px;
+}
+.my-cart-heading{
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight:bold;
+    color: #1e293b;
+}
+@media(min-width:768px){
+    .cart-heading{
+        display: none;
+    }
+}
+@media(max-width:768px){
+    .bg-container-cart{
+        height: 100%;
+        padding: 20px;
+    }
+}

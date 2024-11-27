@@ -1,0 +1,10 @@
+.category-item-styling{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 450;
+    color: #475569;
+    cursor: pointer;
+}
+.extra-styling-category-item{
+    color: rgb(98, 205, 248);
+}

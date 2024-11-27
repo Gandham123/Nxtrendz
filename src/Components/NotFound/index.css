@@ -1,0 +1,15 @@
+.bg-container-not-found{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.not-found-image-styling{
+    width: 100%;
+}
+@media(min-width:768px){
+    .not-found-image-styling{
+        width: 500px;
+    }
+}

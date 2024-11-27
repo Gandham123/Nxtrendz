@@ -1,0 +1,13 @@
+.Products-heading{
+    font-family: "Roboto";
+    font-size:40px;
+    font-weight: 450;
+    color:#78abee;
+    text-align: center;
+    margin-top: 20px;
+}
+@media(min-width:768px){
+    .Products-heading{
+        display: none;
+    }
+}

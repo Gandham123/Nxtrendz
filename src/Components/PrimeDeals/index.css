@@ -1,0 +1,37 @@
+.prime-bg-container{
+    margin: 40px;
+}
+.prime-main-heading{
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 450;
+    color:#22b68e;
+}
+.prime-deals-main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.register-prime-image{
+    width:95%;
+    margin: 40px;
+}
+.Prime-loading-main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+@media(max-width:768px){
+    .prime-deals-main-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .register-prime-image{
+        width: 80%;
+    }
+}

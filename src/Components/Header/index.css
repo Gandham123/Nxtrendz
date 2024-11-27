@@ -1,0 +1,104 @@
+.bg-container-header{
+    padding: 20px 30px 20px 30px;
+}
+.bg-container-header-navitems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-styling-header{
+    width: 120px;
+    margin: 15px;
+}
+.text-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.home-styling{
+    font-family: "San-Serif";
+    font-weight: 450;
+    font-size: 20px;
+    color:#1e293b;
+    margin: 15px;
+    text-decoration: none;
+}
+.button-styling{
+    height: 35px;
+    width:80px;
+    border-width: 0px;
+    background-color: #0b69ff;
+    border-radius: 5px;
+    font-family: "San-Serif";
+    font-weight: 450;
+    font-size: 18px;
+    color:#ffffff;
+    margin: 15px;
+}
+.logout-image-styling-header{
+    height: 50px;
+    margin: 30px 20px 20px 20px;
+    cursor: pointer;
+}
+.smaller-view-images{
+    padding: 20px;
+    background-color: #e6f6ff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-logo-styling{
+    width: 50px;
+}
+
+@media (min-width:769px){
+    .exit-logo-container{
+        display: none;
+    }
+    .smaller-view-images{
+        display: none;
+    }
+}
+@media(max-width:768px){
+    .text-header{
+        display: none;
+    }
+    .logo-styling-header{
+        width: 140px;
+    }
+}
+.header-cart-container{
+   display: flex;
+   flex-direction: row;
+}
+.header-cart-count-spce{
+    margin-top: 17px;
+    margin-left: -7px;
+    margin-right: 8px;
+}
+.cart-count-badge {
+    background-color: #bfdbfe;
+    color: #0967d2;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+  }
+  
+@media(max-width: 768px) {
+    .cart-count-badge {
+      background-color: #ffffff;
+      font-size: 12px;
+    }
+    .header-cart-count-spce{
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+  }
