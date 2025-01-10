@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Nxtrendz/static/css/main.1e6f15dd.css",
+    "main.js": "/Nxtrendz/static/js/main.ad122fa5.js",
+    "static/js/453.ed3810f9.chunk.js": "/Nxtrendz/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Nxtrendz/index.html",
+    "main.1e6f15dd.css.map": "/Nxtrendz/static/css/main.1e6f15dd.css.map",
+    "main.ad122fa5.js.map": "/Nxtrendz/static/js/main.ad122fa5.js.map",
+    "453.ed3810f9.chunk.js.map": "/Nxtrendz/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e6f15dd.css",
+    "static/js/main.ad122fa5.js"
+  ]
+}
